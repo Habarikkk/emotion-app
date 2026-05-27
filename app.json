@@ -7,7 +7,11 @@
     "scheme": "emotioncheckin",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.habarikkk.emotioncheckin",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +23,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "65fb4b98-c231-4984-a7c2-ebba6cb7492e"
+        "projectId": "b20c4686-2575-47fa-b2f6-1eca3d3ab0d1"
       }
     }
   }
