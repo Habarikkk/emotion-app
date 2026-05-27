@@ -1,0 +1,26 @@
+{
+  "name": "emotion-check-in-go54",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "set EXPO_NO_TELEMETRY=1&& expo start --go --lan --clear --port 8082",
+    "start:offline": "set EXPO_NO_TELEMETRY=1&& expo start --offline --go --clear --port 8082",
+    "start:lan": "set EXPO_NO_TELEMETRY=1&& expo start --go --lan --clear --port 8082",
+    "start:tunnel": "set EXPO_NO_TELEMETRY=1&& expo start --go --tunnel --clear",
+    "start:localhost": "set EXPO_NO_TELEMETRY=1&& expo start --go --localhost --clear --port 8082"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~54.0.34",
+    "expo-file-system": "~19.0.22",
+    "expo-notifications": "~0.32.17",
+    "expo-sharing": "~14.0.8",
+    "react": "19.1.4",
+    "react-native": "0.81.6"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.19"
+  }
+}

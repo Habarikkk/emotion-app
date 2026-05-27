@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Emotion Check-In",
+    "slug": "emotion-check-in-go54",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "emotioncheckin",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#eef6f4"
+      }
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "65fb4b98-c231-4984-a7c2-ebba6cb7492e"
+      }
+    }
+  }
+}
